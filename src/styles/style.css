@@ -27,8 +27,9 @@ button {
     transition: color 0.3s;
 }
 
+
 button:hover {
-    color: #FF6C0C;
+    color: var(--main-color);
     cursor: pointer;
 }
 
@@ -51,6 +52,11 @@ nav {
 #taco-homepage {
     width: 320px;
     height: auto;
+    transition: all 0.3s;
+}
+
+#taco-homepage:hover {
+    transform: scale(1.1);
 }
 
 .main {
