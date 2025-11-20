@@ -12,7 +12,7 @@ function switchTab(loadPage) {
     loadPage(content);
 }
 
-
+switchTab(loadHome);
 
 document.querySelector("#home").addEventListener("click", () => switchTab(loadHome));
 document.querySelector("#menu").addEventListener("click", () => switchTab(loadMenu));
