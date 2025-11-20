@@ -38,6 +38,10 @@ function loadHome(div) {
     left.appendChild(secondHeader2);
     left.appendChild(secondHeader3);
 
-    div.appendChild(left);
-    div.appendChild(right);
+    const container = document.createElement("div");
+    container.classList.add("home-container");
+
+    container.appendChild(left);
+    container.appendChild(right);
+    div.appendChild(container);
 }

@@ -1,5 +1,6 @@
 import "../styles/style.css";
 import { loadHome } from "./home";
+import { loadContact } from "./contact";
 
 const content = document.querySelector(".content");
 

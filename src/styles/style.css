@@ -1,4 +1,4 @@
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,p {
     margin: 0;
     padding: 0;
 }
@@ -48,6 +48,7 @@ nav {
     align-items: end;
 }
 
+/* home page */
 
 #taco-homepage {
     width: 320px;
@@ -63,6 +64,12 @@ nav {
     color: var(--main-color);
     margin-bottom: 20px;
     font-size: 3rem;
+    transition: all 0.5s;
+}
+
+.main:hover {
+    transform: scale(1.1);
+    
 }
 
 .main-secondary {
@@ -71,10 +78,46 @@ nav {
 }
 
 
-.content {
+.home-container {
     padding-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 220px;
+}
+
+
+/* contact  */
+
+.contact-container {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact-container .card {
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+    text-align: center;
+    padding: 20px;
+    background-color: #F1F3E0;
+    border-radius: 12px;
+    padding-bottom: 80px;
+    transition: all 0.4s;
+}
+
+.contact-container .card:hover {
+    transform: scale(1.05);
+}
+
+.contact-container h1 {
+    margin-bottom: 56px;
+    font-weight: 400;
+}
+
+.contact-container .card p:first-of-type {
+    margin-bottom: 20px;
 }
